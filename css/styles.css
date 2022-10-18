@@ -420,7 +420,7 @@ video{
 
 /* MEDIA QUERIES */
 
-@media (max-width:450px){
+@media (max-width:480px){
     .form{
     padding: 3.5em 1em;
     }
