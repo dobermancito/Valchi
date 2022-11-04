@@ -1,0 +1,26 @@
+{
+  "name": "valchi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass scss:css",
+    "watch": "sass scss:css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EzequielMSoto/Valchi.git"
+  },
+  "author": "Ezequiel Soto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EzequielMSoto/Valchi/issues"
+  },
+  "homepage": "https://github.com/EzequielMSoto/Valchi#readme",
+  "devDependencies": {
+    "i": "^0.3.7",
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0"
+  }
+}

@@ -30,12 +30,6 @@ body{
 
 /* HEADER */
 
-/* .logo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .df-header{
     display: flex;
     justify-content: space-between ;
@@ -45,18 +39,6 @@ body{
 }
 
 /* MENU  */
-
-/* .df-ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    font-family: 'Roboto', sans-serif;
-}
-
-.df-ul li{
-    margin: 10px;
-} */
 
 .menu-contenedor{
     width: auto;
