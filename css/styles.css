@@ -368,6 +368,52 @@ video{
         font-weight: 400;
     }
 
+
+    /* METODOS */
+
+.container-envtra{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.container-envtra .card-envtra{
+    width: 330px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container-envtra .card-envtra:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container-envtra .card-envtra img{
+    width: auto;
+    height: 80px;
+}
+
+.container-envtra .card-envtra h4{
+    font-weight: 600;
+}
+
+.container-envtra .card-envtra p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
 /* FOOTER */
 
 .bg-footer{
