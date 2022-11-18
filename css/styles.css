@@ -172,67 +172,89 @@ video{
 }
 
 
+/* INDEX PRODUCTOS */
 .df-main{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-
+    display: flex;
+    justify-content: space-around;
 }
 
-
-
-.card-index{
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.bg-card{
-    background-color: white;
-    padding: 9px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+.card {
+    position: relative;
     width: 320px;
+    height: 350px;
+    margin: 20px;
 }
 
-.w-img{
-    width: 318px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
 }
 
-.border-card{
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    text-align: center;
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: white;
+    padding: 15px;
+    color: black;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
 }
 
-.boton{
-    background-color: white;
-    padding: 10px 15px;
-    margin: 10px;
-    border-color: transparent;
-    border-radius: 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 15px;
+.card .back .link {
+    border-top: solid 1px black;
+    height: 50px;
+    line-height: 50px;
 }
 
-.df-logo{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+.card .back .link a {
+    color: black;
 }
 
-.df-logo img{
-    width: 70px;
+.card .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p {
+    letter-spacing: 1px;
+} 
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
 }
 
 
