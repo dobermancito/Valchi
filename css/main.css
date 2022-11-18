@@ -35,7 +35,6 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: px;
 }
 
 .menu-contenedor {
@@ -166,7 +165,6 @@ video {
   width: 350px;
   height: 500px;
   margin: 100px;
-  border: none;
 }
 
 .df-main:hover > .card {
@@ -303,68 +301,6 @@ video {
   text-align: center;
 }
 .df-logo-reposeras img {
-  width: 70px;
-}
-
-/* ALMOHADONES */
-
-.df-main-almohadon {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.card-index-almohadon {
-  margin: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.bg-card-almohadon {
-  background-color: white;
-  padding: 9px 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  width: 320px;
-}
-
-.w-img-almohadon {
-  width: 318px;
-  height: 318px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.border-card-almohadon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.boton-almohadon {
-  background-color: white;
-  padding: 10px 15px;
-  margin: 10px;
-  border-color: transparent;
-  border-radius: 10px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-}
-
-.df-logo-almohadon {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-}
-.df-logo-almohadon img {
   width: 70px;
 }
 
