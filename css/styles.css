@@ -180,9 +180,13 @@ video{
 
 .card {
     position: relative;
-    width: 320px;
-    height: 350px;
-    margin: 20px;
+    width: 350px;
+    height: 500px;
+    margin: 100px;
+}
+
+.df-main:hover > .card {
+    cursor: pointer;
 }
 
 .card .face {
