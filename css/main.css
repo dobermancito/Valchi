@@ -165,6 +165,7 @@ video {
   width: 350px;
   height: 500px;
   margin: 100px;
+  border: none;
 }
 
 .df-main:hover > .card {
