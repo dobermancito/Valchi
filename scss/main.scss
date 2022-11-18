@@ -318,7 +318,6 @@ video {
 .container-envtra {
 	width: 100%;
 	max-width: 1200px;
-	height: 430px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -421,6 +420,7 @@ video {
 	.form {
 		padding: 3.5em 1em;
 	}
+
 }
 
 @media screen and (min-width:768px) and (max-width: 1023px) {
@@ -461,4 +461,5 @@ video {
 	.form {
 		padding: 3.5em 1em;
 	}
+
 }
